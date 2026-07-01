@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI × CFD Morning Brief</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171717;
+      --muted: #60646c;
+      --line: #d9dde3;
+      --paper: #fbfbf8;
+      --panel: #ffffff;
+      --accent: #0d7c66;
+      --warm: #b45309;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Aptos", "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(120deg, rgba(13,124,102,.10), transparent 35%),
+        linear-gradient(300deg, rgba(180,83,9,.11), transparent 32%),
+        var(--paper);
+    }
+    main {
+      width: min(980px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 42px 0 52px;
+    }
+    .mast {
+      display: grid;
+      grid-template-columns: 168px minmax(0, 1fr);
+      gap: 28px;
+      align-items: end;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+    }
+    .cover {
+      width: 168px;
+      aspect-ratio: 1;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 18px 44px rgba(23,23,23,.16);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 4.2rem);
+      line-height: .95;
+      letter-spacing: 0;
+      max-width: 760px;
+    }
+    .deck {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.04rem;
+      line-height: 1.7;
+      max-width: 660px;
+    }
+    .episode {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 240px;
+      gap: 28px;
+      align-items: start;
+    }
+    .player {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 24px;
+      box-shadow: 0 10px 24px rgba(23,23,23,.06);
+    }
+    .label {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0 0 18px;
+      font-size: clamp(1.45rem, 2.5vw, 2.25rem);
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+    audio {
+      width: 100%;
+      display: block;
+      margin: 18px 0 0;
+    }
+    .duration {
+      color: var(--muted);
+      margin: 14px 0 0;
+      font-size: .95rem;
+    }
+    .notes {
+      margin-top: 24px;
+      color: #30343b;
+      line-height: 1.7;
+      font-size: .98rem;
+    }
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+    a.button {
+      display: block;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: rgba(255,255,255,.72);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a.button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .hint {
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: .94rem;
+      margin: 14px 0 0;
+    }
+    footer {
+      margin-top: 44px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    @media (max-width: 760px) {
+      main { width: min(100vw - 24px, 620px); padding-top: 24px; }
+      .mast { grid-template-columns: 92px 1fr; gap: 16px; align-items: center; }
+      .cover { width: 92px; }
+      .episode { grid-template-columns: 1fr; gap: 18px; }
+      .player { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="mast">
+      <img class="cover" src="cover.jpg" alt="AI × CFD Morning Brief cover">
+      <div>
+        <h1>AI × CFD Morning Brief</h1>
+        <p class="deck">私人 AI / CFD / 科技有声简报。这里是播客订阅页，用来播放最新一期和复制 RSS 地址。</p>
+      </div>
+    </section>
+
+    <section class="episode">
+      <article class="player">
+        <p class="label">Latest Episode</p>
+        <h2>2026-07-01: OpenAI 修复 18 年旧 Bug，AI 从聊天走向科研基础设施</h2>
+        <audio controls preload="metadata" src="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/episodes/2026-07-01.mp3"></audio>
+        <p class="duration">时长：226</p>
+        <div class="notes">- How ChatGPT adoption has expanded - OpenAI Blog<br>- NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science - NVIDIA Blog<br>- Start building with Nano Banana 2 Lite and Gemini Omni Flash - Google DeepMind Blog<br>- Introducing GeneBench-Pro - OpenAI Blog<br>- Core dump epidemiology: fixing an 18-year-old bug - OpenAI Blog<br>- https://openai.com/index/how-chatgpt-adoption-has-expanded<br>- https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/<br>- https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/<br>- https://openai.com/index/introducing-genebench-pro<br>- https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</div>
+      </article>
+
+      <aside class="links" aria-label="Subscription links">
+        <a class="button" href="feed.xml">打开 RSS</a>
+        <a class="button" href="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/episodes/2026-07-01.mp3">下载 MP3</a>
+        <p class="hint">Apple Podcasts: Library -> More (...) -> Follow a Show by URL，然后粘贴 RSS 地址。</p>
+        <p class="hint">https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/feed.xml</p>
+      </aside>
+    </section>
+
+    <footer>Generated by Private AI Brief Podcast.</footer>
+  </main>
+</body>
+</html>
