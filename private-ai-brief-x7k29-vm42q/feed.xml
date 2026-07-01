@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"><channel><title>AI × CFD Morning Brief</title><link>https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/feed.xml</link><description>私人 AI、CFD、科技和商业投资晨间有声简报。</description><language>zh-cn</language><itunes:author>Private AI Brief</itunes:author><itunes:category text="Technology" /><itunes:explicit>false</itunes:explicit><itunes:block>yes</itunes:block><itunes:image href="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/cover.jpg" /><item><title>2026-07-01: OpenAI 修复 18 年旧 Bug，AI 从聊天走向科研基础设施（新版音频）</title><description>- How ChatGPT adoption has expanded - OpenAI Blog
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"><channel><title>AI × CFD Morning Brief</title><link>https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/feed.xml</link><description>私人 AI、CFD、科技和商业投资晨间有声简报。</description><language>zh-cn</language><itunes:author>Private AI Brief</itunes:author><itunes:category text="Technology" /><itunes:explicit>false</itunes:explicit><itunes:block>yes</itunes:block><itunes:image href="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/cover.jpg" /><item><title>2026-07-01: 一个实验室失误，可能让AI芯片能耗暴降上百倍</title><description>- The Lab Mistake That Might Revolutionize Computing - IEEE Spectrum
+- NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers - NVIDIA Blog
+- How ChatGPT adoption has expanded - OpenAI Blog
+- AI Is Designing Radio Chips That Humans Couldn’t Even Imagine - IEEE Spectrum
+- How the U.S. Engineered Its Sovereignty - IEEE Spectrum
+- https://spectrum.ieee.org/artificial-neurons-on-silicon-chips
+- https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/
+- https://openai.com/index/how-chatgpt-adoption-has-expanded
+- https://spectrum.ieee.org/ai-radio-chip-design
+- https://spectrum.ieee.org/us-engineered-sovereignty</description><pubDate>Wed, 01 Jul 2026 08:21:13 +0000</pubDate><guid isPermaLink="false">2026-07-01-frontier-10min</guid><enclosure url="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/episodes/2026-07-01-frontier-10min.mp3" length="2171962" type="audio/mpeg" /><itunes:duration>543</itunes:duration></item><item><title>2026-07-01: OpenAI 修复 18 年旧 Bug，AI 从聊天走向科研基础设施（新版音频）</title><description>- How ChatGPT adoption has expanded - OpenAI Blog
 - NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science - NVIDIA Blog
 - Start building with Nano Banana 2 Lite and Gemini Omni Flash - Google DeepMind Blog
 - Introducing GeneBench-Pro - OpenAI Blog
