@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"><channel><title>AI × CFD Morning Brief</title><link>https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/feed.xml</link><description>私人 AI、CFD、科技和商业投资晨间有声简报。</description><language>zh-cn</language><itunes:author>Private AI Brief</itunes:author><itunes:category text="Technology" /><itunes:explicit>false</itunes:explicit><itunes:block>yes</itunes:block><itunes:image href="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/cover.jpg" /><item><title>2026-07-01: 别再只看跑得快不快了，AI的判断力才是新门槛</title><description>- **文章 1**: *How ChatGPT adoption has expanded* (OpenAI Blog)
+  https://openai.com/index/how-chatgpt-adoption-has-expanded
+
+- **文章 2**: *NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science* (NVIDIA Blog)
+  https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/
+
+- **文章 3**: *Start building with Nano Banana 2 Lite and Gemini Omni Flash* (Google DeepMind Blog)
+  https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/
+
+- **文章 4**: *Introducing GeneBench-Pro* (OpenAI Blog)
+  https://openai.com/index/introducing-genebench-pro
+
+- **文章 5**: *Core dump epidemiology: fixing an 18-year-old bug* (OpenAI Blog)
+  https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug</description><pubDate>Wed, 01 Jul 2026 03:28:24 +0000</pubDate><guid isPermaLink="false">2026-07-01</guid><enclosure url="https://Arryliy.github.io/private-ai-brief-feed/private-ai-brief-x7k29-vm42q/episodes/2026-07-01.mp3" length="1741340" type="audio/mpeg" /><itunes:duration>435</itunes:duration></item></channel></rss>
